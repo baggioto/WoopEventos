@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325F795E2311C9FC00BDBD86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F795D2311C9FC00BDBD86 /* AppDelegate.swift */; };
+		325F79602311C9FC00BDBD86 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F795F2311C9FC00BDBD86 /* MasterViewController.swift */; };
+		325F79632311C9FC00BDBD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325F79612311C9FC00BDBD86 /* Main.storyboard */; };
+		325F79652311C9FE00BDBD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325F79642311C9FE00BDBD86 /* Assets.xcassets */; };
+		325F79682311C9FE00BDBD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325F79662311C9FE00BDBD86 /* LaunchScreen.storyboard */; };
+		32E44E572311EDAA008CE3F0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E562311EDAA008CE3F0 /* Event.swift */; };
+		32E44E592311EF46008CE3F0 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E582311EF46008CE3F0 /* People.swift */; };
+		32E44E5B2311EFCD008CE3F0 /* Cupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E5A2311EFCD008CE3F0 /* Cupon.swift */; };
+		32E44E622312209B008CE3F0 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E602312209B008CE3F0 /* EventCell.swift */; };
+		32E44E632312209B008CE3F0 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E44E612312209B008CE3F0 /* EventCell.xib */; };
+		32E44E6923122FC5008CE3F0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E6823122FC5008CE3F0 /* BaseViewController.swift */; };
+		32E44E6B231235A6008CE3F0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E6A231235A6008CE3F0 /* DetailViewController.swift */; };
+		32E44E6E231345DD008CE3F0 /* FBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E44E6D231345DD008CE3F0 /* FBColor.swift */; };
+		BA71D513350300C1A198B1F3 /* Pods_Woop_Eventos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A349E02AD5F81BC5F5B088 /* Pods_Woop_Eventos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C6C0F7A19D0A3282FF4E66E /* Pods-Woop Eventos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woop Eventos.debug.xcconfig"; path = "Target Support Files/Pods-Woop Eventos/Pods-Woop Eventos.debug.xcconfig"; sourceTree = "<group>"; };
+		325F795A2311C9FC00BDBD86 /* Woop Eventos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Woop Eventos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		325F795D2311C9FC00BDBD86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		325F795F2311C9FC00BDBD86 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		325F79622311C9FC00BDBD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		325F79642311C9FE00BDBD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		325F79672311C9FE00BDBD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		325F79692311C9FF00BDBD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E44E562311EDAA008CE3F0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		32E44E582311EF46008CE3F0 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		32E44E5A2311EFCD008CE3F0 /* Cupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupon.swift; sourceTree = "<group>"; };
+		32E44E602312209B008CE3F0 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		32E44E612312209B008CE3F0 /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		32E44E6823122FC5008CE3F0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		32E44E6A231235A6008CE3F0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		32E44E6D231345DD008CE3F0 /* FBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBColor.swift; sourceTree = "<group>"; };
+		3DBE892F7D22F9386FEAF57D /* Pods-agendaDeEventos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agendaDeEventos.release.xcconfig"; path = "Target Support Files/Pods-agendaDeEventos/Pods-agendaDeEventos.release.xcconfig"; sourceTree = "<group>"; };
+		51EECED1707A92BFC14B78A0 /* Pods-Woop Eventos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woop Eventos.release.xcconfig"; path = "Target Support Files/Pods-Woop Eventos/Pods-Woop Eventos.release.xcconfig"; sourceTree = "<group>"; };
+		587A802DF132337FDC2F2810 /* Pods-agendaDeEventos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agendaDeEventos.debug.xcconfig"; path = "Target Support Files/Pods-agendaDeEventos/Pods-agendaDeEventos.debug.xcconfig"; sourceTree = "<group>"; };
+		59A349E02AD5F81BC5F5B088 /* Pods_Woop_Eventos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Woop_Eventos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		325F79572311C9FC00BDBD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA71D513350300C1A198B1F3 /* Pods_Woop_Eventos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4FA95695E33F4CC940C48C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A349E02AD5F81BC5F5B088 /* Pods_Woop_Eventos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		325F79512311C9FC00BDBD86 = {
+			isa = PBXGroup;
+			children = (
+				325F795C2311C9FC00BDBD86 /* agendaDeEventos */,
+				325F795B2311C9FC00BDBD86 /* Products */,
+				4909D1EB73BBC8E677A18F5C /* Pods */,
+				0B4FA95695E33F4CC940C48C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		325F795B2311C9FC00BDBD86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325F795A2311C9FC00BDBD86 /* Woop Eventos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		325F795C2311C9FC00BDBD86 /* agendaDeEventos */ = {
+			isa = PBXGroup;
+			children = (
+				32E44E542311ED86008CE3F0 /* Model */,
+				32E44E532311ED78008CE3F0 /* Controllers */,
+				325F795D2311C9FC00BDBD86 /* AppDelegate.swift */,
+				325F79612311C9FC00BDBD86 /* Main.storyboard */,
+				325F79642311C9FE00BDBD86 /* Assets.xcassets */,
+				325F79662311C9FE00BDBD86 /* LaunchScreen.storyboard */,
+				325F79692311C9FF00BDBD86 /* Info.plist */,
+			);
+			path = agendaDeEventos;
+			sourceTree = "<group>";
+		};
+		32E44E532311ED78008CE3F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				325F795F2311C9FC00BDBD86 /* MasterViewController.swift */,
+				32E44E6823122FC5008CE3F0 /* BaseViewController.swift */,
+				32E44E6A231235A6008CE3F0 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32E44E542311ED86008CE3F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32E44E6C231345AB008CE3F0 /* Util */,
+				32E44E5D23121BD6008CE3F0 /* Views */,
+				32E44E5C23121BC5008CE3F0 /* Classes */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32E44E5C23121BC5008CE3F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32E44E562311EDAA008CE3F0 /* Event.swift */,
+				32E44E582311EF46008CE3F0 /* People.swift */,
+				32E44E5A2311EFCD008CE3F0 /* Cupon.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32E44E5D23121BD6008CE3F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32E44E602312209B008CE3F0 /* EventCell.swift */,
+				32E44E612312209B008CE3F0 /* EventCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32E44E6C231345AB008CE3F0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				32E44E6D231345DD008CE3F0 /* FBColor.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4909D1EB73BBC8E677A18F5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				587A802DF132337FDC2F2810 /* Pods-agendaDeEventos.debug.xcconfig */,
+				3DBE892F7D22F9386FEAF57D /* Pods-agendaDeEventos.release.xcconfig */,
+				0C6C0F7A19D0A3282FF4E66E /* Pods-Woop Eventos.debug.xcconfig */,
+				51EECED1707A92BFC14B78A0 /* Pods-Woop Eventos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325F79592311C9FC00BDBD86 /* Woop Eventos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 325F796C2311C9FF00BDBD86 /* Build configuration list for PBXNativeTarget "Woop Eventos" */;
+			buildPhases = (
+				8D36C5F2109B7FD672A7F64E /* [CP] Check Pods Manifest.lock */,
+				325F79562311C9FC00BDBD86 /* Sources */,
+				325F79572311C9FC00BDBD86 /* Frameworks */,
+				325F79582311C9FC00BDBD86 /* Resources */,
+				5A89E3DC3FD54DC62A3C0BCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Woop Eventos";
+			productName = agendaDeEventos;
+			productReference = 325F795A2311C9FC00BDBD86 /* Woop Eventos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		325F79522311C9FC00BDBD86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Felipe Baggioto";
+				TargetAttributes = {
+					325F79592311C9FC00BDBD86 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 325F79552311C9FC00BDBD86 /* Build configuration list for PBXProject "agendaDeEventos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325F79512311C9FC00BDBD86;
+			productRefGroup = 325F795B2311C9FC00BDBD86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325F79592311C9FC00BDBD86 /* Woop Eventos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		325F79582311C9FC00BDBD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E44E632312209B008CE3F0 /* EventCell.xib in Resources */,
+				325F79682311C9FE00BDBD86 /* LaunchScreen.storyboard in Resources */,
+				325F79652311C9FE00BDBD86 /* Assets.xcassets in Resources */,
+				325F79632311C9FC00BDBD86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A89E3DC3FD54DC62A3C0BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woop Eventos/Pods-Woop Eventos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woop Eventos/Pods-Woop Eventos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Woop Eventos/Pods-Woop Eventos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D36C5F2109B7FD672A7F64E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Woop Eventos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325F79562311C9FC00BDBD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E44E5B2311EFCD008CE3F0 /* Cupon.swift in Sources */,
+				32E44E592311EF46008CE3F0 /* People.swift in Sources */,
+				325F79602311C9FC00BDBD86 /* MasterViewController.swift in Sources */,
+				32E44E572311EDAA008CE3F0 /* Event.swift in Sources */,
+				32E44E622312209B008CE3F0 /* EventCell.swift in Sources */,
+				32E44E6923122FC5008CE3F0 /* BaseViewController.swift in Sources */,
+				325F795E2311C9FC00BDBD86 /* AppDelegate.swift in Sources */,
+				32E44E6B231235A6008CE3F0 /* DetailViewController.swift in Sources */,
+				32E44E6E231345DD008CE3F0 /* FBColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		325F79612311C9FC00BDBD86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325F79622311C9FC00BDBD86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		325F79662311C9FE00BDBD86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				325F79672311C9FE00BDBD86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		325F796A2311C9FF00BDBD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		325F796B2311C9FF00BDBD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		325F796D2311C9FF00BDBD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6C0F7A19D0A3282FF4E66E /* Pods-Woop Eventos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = agendaDeEventos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woop.agendaDeEventos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		325F796E2311C9FF00BDBD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EECED1707A92BFC14B78A0 /* Pods-Woop Eventos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = agendaDeEventos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woop.agendaDeEventos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		325F79552311C9FC00BDBD86 /* Build configuration list for PBXProject "agendaDeEventos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325F796A2311C9FF00BDBD86 /* Debug */,
+				325F796B2311C9FF00BDBD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		325F796C2311C9FF00BDBD86 /* Build configuration list for PBXNativeTarget "Woop Eventos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				325F796D2311C9FF00BDBD86 /* Debug */,
+				325F796E2311C9FF00BDBD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 325F79522311C9FC00BDBD86 /* Project object */;
+}
